@@ -10,7 +10,7 @@ import AVFoundation
 
 public struct AboutView: View {
    
-    let player = AVPlayer()
+    @State private var player = AVPlayer()
     
     public init() {
     }
